@@ -1,24 +1,23 @@
-# README
+# PROJECT: AUTHENTICATION
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Members only is an app that lets users write posts, much like a message board, and see what other users have posted. People who haven't signed up for an account at Members Only can still see all the posts on the site but can't see who authored which post.
 
-Things you may want to cover:
+This is a very basic web application that can do the following:
 
-* Ruby version
+- Create new user accounts.
+- Registered users can create text post.
+- Displays all users' posts on the home page.
+- Keeps unregistered users from knowing who authored wich post.
+- Users can update their user information.
+- Posts can only be created, but not destroyed nor edited.
 
-* System dependencies
+Members only has been built using the following gems:
 
-* Configuration
+- bulma-rails v0.9.1 --> CSS Framework
+- devise v4.7.3 --> Flexible authentication solution for Rails with Warden
 
-* Database creation
+Ruby and Rails versions:
 
-* Database initialization
+- ruby v6.1.3
+- rails v2.7.2
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
