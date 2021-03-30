@@ -1,0 +1,16 @@
+<div class="tile is-ancestor is-vertical">
+  <% @posts.each do |post| %>
+    <div class="tile is-parent">
+      <article class="tile is-child box">
+        <div class="media">
+          <div class="media-content">
+            <div class="content is-medium">
+              <strong>Anonymous</strong>
+              <p><%= post.body %></p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  <% end %>
+</div>

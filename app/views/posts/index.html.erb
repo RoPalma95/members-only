@@ -1,0 +1,14 @@
+<section class="hero is-dark is-fullheight">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h1 class="title is-1 has-text-centered">Welcome, <%= current_user.username %></h1>
+      <p class="subtitle has-text-centered">All your secrets in one place!</p><br>
+      <div class="columns is-centered">
+        <div class="column is-two-thirds">
+          <%= render "posts/feed" %>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
